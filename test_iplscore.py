@@ -1,4 +1,4 @@
-from iplscore import home
+from app import home
 from flask import render_template, Flask
 app = Flask(__name__)
 
