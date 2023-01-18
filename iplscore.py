@@ -5,8 +5,8 @@ from flask import Flask,render_template,request
 
 regressor = 0
 # regressor = joblib.load('iplmodel_ridge.sav')
-# with open('scaler.pkl','rb') as f:
-#     scaler = pickle.load(f)
+with open('scaler.pkl','rb') as f:
+    scaler = pickle.load(f)
 
 app = Flask(__name__)
 
