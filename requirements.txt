@@ -1,3 +1,4 @@
 flask
 pytest
+numpy
 gunicorn==20.0.4
